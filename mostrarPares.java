@@ -7,8 +7,8 @@ public class mostrarPares {
         int total = teclado.nextInt();
         int i;
         for (i = 1; i > total; i++){
-            if (i % 2 == 0){
-                System.out.println(i);
+            if (i % 2 != 0){
+                System.out.println("El numero par es: "+i);
             }
         }
     }
